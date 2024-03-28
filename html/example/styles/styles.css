@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1920px;
+    height: 100px;
+    background-color: #ffde59;
+}
+
+.logo {
+    position: absolute;
+    top: 8px;
+    left: 240px;
+    width: 85px;
+    height: 85px;
+}
+
+.search {
+    position: absolute;
+    background-color: #c4c4c4;
+    top: 31px;
+    left: 460px;
+    width: 704px;
+    height: 43px;
+}
+
+#vk_header {
+    position: absolute;
+    width: 59px;
+    height: 34px;
+    top: 41px;
+    left: 1291px;
+}
+
+#instagram_header {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 37px;
+    left: 1391px;
+}
+
+#telegram_header {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 38px;
+    left: 1474px;
+}
+
+#header_text {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    top: 46px;
+    left: 1570px;
+    width: 59px;
+    height: 24px;
+}
+
+.category {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.element {
+    width: 250px;
+    height: 180px;
+    background: #131a35;
+}
+
+#category_1 {
+    top: 277px;
+    left: 240px;
+}
+
+#category_2 {
+    left: 240px;
+    top: 693px;
+}
+
+#category_3 {
+    left: 240px;
+    top: 1109px;
+}
+
+#container_1 {
+    top: 367px;
+    left: 240px;
+}
+
+#container_2 {
+    top: 781px;
+    left: 240px;
+}
+
+#container_3 {
+    top: 1195px;
+    left: 240px;
+}
+
+footer {
+    position: absolute;
+    height: 100px;
+    background: #131a35;
+    width: 1920px;
+    top: 1723px;
+}
+
+#vk_footer {
+    position: absolute;
+    top: 23px;
+    left: 1346px;
+    width: 45px;
+    height: 26px;
+}
+
+#instagram_footer {
+    position: absolute;
+    top: 19px;
+    left: 1433px;
+    width: 42px;
+    height: 42px;
+}
+
+#telegram_footer {
+    position: absolute;
+    top: 23px;
+    left: 1515px;
+    width: 41px;
+    height: 41px;
+}
+
+#footer_text {
+    position: absolute;
+    top: 64px;
+    left: 1397px;
+    font-size: 24px;
+    color: #ffde59;
+}
