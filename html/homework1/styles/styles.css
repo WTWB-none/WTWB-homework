@@ -5,25 +5,24 @@
     box-sizing: border-box;
     font-family: "Inter";
 }
+body{
+    min-width: 1920px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 160px;
+}
 
-header {
-    position: absolute;
-    width: 1920px;
-    height: 72px;
+.no-way-verh{
+    width: 100%;
     border-bottom: 1px solid #eaecf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#brand {
-    position: absolute;
-    top: 20px;
-    left: 160px;
-}
 
-#action {
-    position: absolute;
-    top: 14px;
-    left: 1716px;
-}
 
 .selector {
     position: absolute;
@@ -233,9 +232,7 @@ header {
 }
 
 .credentials {
-    position: absolute;
-    top: 1032px;
-    left: 160px;
     font-size: 14px;
     color: #667085;
 }
+

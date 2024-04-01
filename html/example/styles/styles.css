@@ -7,7 +7,6 @@
 }
 
 .header {
-    position: relative;
     height: 100px;
     background-color: #ffde59;
     min-width: 1920px;
@@ -75,7 +74,6 @@ body {
 }
 
 .container {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -103,7 +101,6 @@ body {
 }
 
 .footer {
-    position: relative;
     height: 100px;
     background: #131a35;
     min-width: 1920px;
@@ -114,7 +111,6 @@ body {
 }
 
 .credentials {
-    position: relative;
     width: 210px;
     height: 100%;
     display: flex;
@@ -124,7 +120,6 @@ body {
 }
 
 .icons {
-    position: relative;
     height: 41px;
     width: 210px;
     display: flex;
